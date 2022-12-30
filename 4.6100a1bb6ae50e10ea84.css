@@ -1,0 +1,659 @@
+@import url(https://fonts.googleapis.com/css2?family=Ephesis&family=Inter:wght@200;300&family=Island+Moments&family=Italianno&family=Open+Sans:wght@300;400;600&family=Roboto:wght@300;400;500;700&family=Twinkle+Star&display=swap);
+.home-page-fontfamily {
+    font-family: 'Inter', sans-serif !important;
+    font-style: normal;
+}
+
+.MuiContainer-root {
+    padding: 0 !important;
+    margin: 0;
+}
+
+/* .home-bg {
+    background-color: #160040;
+    max-width: 100% !important;
+} */
+
+/* section one start */
+.form-bgpng {
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 50vh;
+    top: 30%;
+    z-index: -1;
+    background: url("/assets/form bg.png") top repeat-x;
+}
+
+/* .title-section {
+    font-family: 'Inter', sans-serif !important;
+    font-weight: 500 !important;
+    font-size: 32px !important;
+    line-height: 39px !important;
+    color: #FFFFFF;
+} */
+
+
+/* .testiominals-title {
+    font-family: 'Inter', sans-serif !important;
+    font-weight: 600 !important;
+    font-size: 32px !important;
+    line-height: 39px !important;
+    color: #FFFFFF;
+} */
+
+.title-section {
+    font-family: 'Pirulen' !important;
+    font-style: italic;
+    font-weight: 400 !important;
+    font-size: 32px !important;
+    line-height: 38px !important;
+    color: #FFFFFF;
+}
+
+.card-form {
+    background: #1F1D36 !important;
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.1) !important;
+    border-radius: 8px !important;
+    padding: 3rem;
+    max-width: 450px !important;
+    margin: 0 auto !important;
+}
+
+.form-btn {
+    background: #7C3AED !important;
+    border-radius: 4px !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 19px !important;
+    color: #FFFFFF !important;
+    text-transform: none !important;
+    padding: .7rem 1.8rem !important;
+    min-width: 86px !important;
+    margin: .5rem .5rem !important;
+    box-shadow: 0 !important;
+}
+
+.btn-buy-sell-active {
+    background: transparent !important;
+    border: 1px solid #FFFFFF !important;
+}
+
+.label-name {
+    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    position: relative;
+    top: 15px;
+}
+
+.top-zero {
+    top: 0;
+}
+
+.customeinput-and-customeimg .MuiCardMedia-media {
+    width: auto !important;
+    position: relative;
+    z-index: 1;
+    left: 15px;
+    right: 0;
+    top: 41px;
+}
+
+.customeinput-and-customeimg input {
+    /* position: relative; */
+    border: 1px solid rgba(255, 255, 255, 0.5) !important;
+    border-radius: 4px !important;
+    min-width: -webkit-fill-available;
+    padding: 1.2rem 0 1.4rem 3rem;
+    background: transparent;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.customeinput-and-customeimg input::placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.customeinput-and-customeimg .MuiSelect-icon {
+    color: #ffffff;
+    content: '';
+    border-bottom: 3px solid #fff;
+    border-right: 3px solid #fff;
+    width: 10px;
+    height: 10px;
+    transform: rotate(45deg);
+    fill: none;
+    position: absolute;
+    top: 19px;
+    right: 20px;
+}
+
+.customeinput-and-customeimg .css-bpeome-MuiSvgIcon-root-MuiSelect-icon {
+    border-bottom: 3px solid #fff;
+    border-right: 3px solid #fff;
+    width: 10px;
+    height: 10px;
+    transform: rotate(225deg);
+    fill: none;
+    position: absolute;
+    top: 24px;
+    right: 20px;
+}
+
+.customeselect-and-customeimg .MuiOutlinedInput-notchedOutline {
+    outline: 0 !important;
+    border: 0 !important;
+}
+
+
+.cutome-ul{
+    background-color: #1F1D36 !important;
+    color: #FFFFFF !important;
+    padding: 0 !important;
+}
+.MuiList-padding{
+    padding: 0 !important;
+}
+
+/* section one over */
+
+
+/* section two start */
+.section-two {
+    margin: 3.5rem auto 5rem;
+    padding: 0 2rem;
+}
+
+.bg-leftside {
+    background-image: url(/assets/borderleft.png);
+    background-repeat: no-repeat;
+    padding: 2rem 0.5rem .2rem .8rem;
+    max-width: 340px;
+}
+
+.custome-card-sectiontwo {
+    border: 1px solid #15BFFD;
+    background: rgba(255, 255, 255, 0.05) !important;
+    border-radius: 5.30268px !important;
+    /* transform: matrix(-1, 0, 0, 1, 0, 0) !important; */
+    max-width: 340px;
+    padding: 0.5rem 0;
+    top: -21px;
+    position: relative;
+}
+
+.custome-card-sectiontwo .card-header-content .MuiCardMedia-media {
+    width: auto !important;
+    margin-right: 15px;
+    object-fit: contain !important;
+}
+
+.sectiontwocard-image-content {
+    font-weight: 500 !important;
+    font-size: 24px !important;
+    color: #FFFFFF;
+    margin: 0 auto;
+}
+
+.sectiontwocard-image-contentsub {
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    color: #767676;
+}
+
+.graphac-numeric {
+    font-weight: 500 !important;
+    font-size: 24px !important;
+    line-height: 29px !important;
+    color: #FFFFFF;
+}
+
+.custome-card-sectiontwo .card-body-content .MuiCardMedia-media {
+    width: auto !important;
+    object-fit: contain !important;
+}
+
+
+/* section testiominals start */
+
+/* .testiominals-title {
+    font-family: 'Inter', sans-serif !important;
+    font-weight: 500 !important;
+    font-size: 32px !important;
+    line-height: 39px !important;
+    color: #FFFFFF;
+} */
+
+.testiominals-paragraph {
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 19px !important;
+    color: #FFFFFF;
+    display: block;
+    padding-bottom: 4rem;
+}
+
+.pb-two {
+    padding-bottom: 2rem;
+}
+
+.cards-media .MuiCardMedia-media {
+    width: auto !important;
+    object-fit: contain !important;
+    margin-right: 20px;
+}
+
+.cards-main {
+    border: 1px solid #15BFFD !important;
+    background: rgba(255, 255, 255, 0.05) !important;
+    border-radius: 8px !important;
+    margin: 0 5px;
+}
+
+.card-image-content {
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 20px !important;
+    color: #FFFFFF;
+}
+
+.read-more {
+    color: #9C37FD !important;
+    font-weight: 500 !important;
+}
+
+.mt-ten {
+    margin-top: 8rem !important;
+}
+
+.create-btn {
+    background: #7C3AED !important;
+    border-radius: 4px !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 19px !important;
+    color: #FFFFFF !important;
+    text-transform: none !important;
+    padding: .7rem 1rem !important;
+    min-width: 209px !important;
+    margin: 0 auto !important;
+    display: block !important;
+}
+
+.bg-testiominals-leftright {
+    padding: 2rem;
+}
+
+.customeselect-and-customeimg {
+    width: 100%;
+}
+
+/* Start Section 1 */
+.customeselect-and-customeimg .MuiSelect-select {
+    color: white !important;
+    border-color: white !important;
+    border: 1px solid rgba(255, 255, 255, 0.5) !important;
+    padding-left: 48px;
+}
+
+/* .customeselect-and-customeimg .MuiSelect-select:focus {
+    color: white !important;
+    border-color: white !important;
+    border: 1px solid white !important;
+} */
+/* .customeselect-and-customeimg .cutome-ul{
+    background-color: #1F1D36 !important;
+    color: #FFFFFF !important;
+} */
+
+/* end Section 1 */
+
+
+/* section testiominals over */
+
+/* reponsive meadia queries start */
+@media only screen and (max-width: 899px) {
+    .mt-ten {
+        margin-top: 2rem !important;
+    }
+
+    .bg-leftside {
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .title-section,
+    .testiominals-title {
+        font-size: 20px !important;
+    }
+
+    .testiominals-paragraph {
+        padding-bottom: 2rem;
+    }
+
+}
+
+@media only screen and (max-width: 585px) {
+    .card-form {
+        max-width: 300px !important;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .card-form {
+        max-width: 280px !important;
+        padding: 2rem;
+    }
+}
+
+/* reponsive meadia queries over */
+
+/* log in page css start */
+
+.login-page-bagimg{
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 50vh;
+    top: 30%;
+    z-index: -1;
+    background: url("/assets/form bg.png") top repeat-x;
+}
+
+/* end log in page csss */
+header{
+    padding-top: 22px;
+}
+
+.MuiIconButton-edgeStart{
+    top: -30px !important;
+    /* left: -10px !important; */
+    position: relative;
+}
+/* foter updte................. */
+
+footer {
+    border: 1px solid linear-gradient(152.14deg, rgba(21, 191, 253, 0.7) 9.96%, rgba(156, 55, 253, 0.7) 100%);
+    background: #220D4A;
+}
+
+.foter-contents-width {
+    max-width: 900px;
+    margin: 0 auto;
+}
+.padding-responsive{
+    padding: 80px 0;
+}
+
+.foter-title {
+    font-family: 'Inter' !important;
+    font-style: normal;
+    font-weight: 400  !important;
+    font-size: 32px !important;
+    line-height: 39px !important;
+    color: #FFFFFF;
+}
+
+.btn-default {
+    border-radius: 20.1818px !important;
+    font-family: 'Inter' !important;
+    font-style: normal;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 19px !important;
+    color: #FFFFFF !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+    /* border: 1px solid linear-gradient(98.97deg, #9C37FD 4.53%, #15BFFD 103) !important; */
+    border: 1px solid #9C37FD !important;
+    text-transform: none !important;
+    min-width: auto !important;
+    padding: 9px 40px !important;
+}
+
+.term-and-policy {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.btn-store {
+    padding: 17px 21px !important;
+}
+
+.float-reponsive {
+    float: right;
+}
+
+.toggle {
+    position: relative;
+    float: right;
+}
+
+.toggle:before {
+    content: '';
+    position: absolute;
+    border-bottom: 2px solid #fff;
+    border-right: 2px solid #fff;
+    width: 4px;
+    height: 10px;
+    z-index: 2;
+    transform: rotate(45deg);
+    top: 7px;
+    left: 10px;
+}
+
+.toggle:after {
+    content: '×';
+    position: absolute;
+    top: 4px;
+    left: 39px;
+    z-index: 2;
+    line-height: 20px;
+    font-size: 22px;
+    color: #fff;
+}
+
+.toggle input[type="checkbox"] {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.toggle label {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.toggle label:before {
+    content: '';
+    /* width: 80px;
+    height: 42px; */
+    /* box-shadow: 0 0 1px 2px #0001; */
+    width: 60px;
+    height: 30px;
+    background: #000;
+    position: relative;
+    display: inline-block;
+    border-radius: 46px;
+    transition: 0.2s ease-in;
+    /* padding: 0 .4rem; */
+}
+
+.toggle label:after {
+    content: '';
+    position: absolute;
+    /* width: 42px;
+    height: 42px; */
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    left: 6px;
+    /* top: 0; */
+    top: 7px;
+    z-index: 5;
+    background: #fff;
+    /* box-shadow: 0 0 5px #0002; */
+    transition: 0.2s ease-in;
+}
+
+.toggle input[type="checkbox"]:hover+label:after {
+    box-shadow: 0 2px 15px 0 #0002, 0 3px 8px 0 #0001;
+}
+
+.toggle input[type="checkbox"]:checked+label:before {
+    transition: 0.1s 0.2s ease-in;
+    background: #000;
+}
+
+.toggle input[type="checkbox"]:checked+label:after {
+    left: 38px;
+}
+
+.dark-theme {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin-left: 15px;
+}
+
+@media only screen and (max-width: 959px) {
+    .toggle {
+        margin-top: 2rem;
+    }
+
+    .toggle,
+    .float-reponsive {
+        float: none;
+    }
+
+    .foter-contents-width {
+        max-width: fit-content;
+    }
+}
+@media only screen and (max-width: 800px){
+    .padding-responsive{
+        padding: 80px;
+    }
+}
+@media only screen and (max-width: 425px){
+    .padding-responsive{
+        padding: 20px;
+    }
+}
+body {
+  /* background: radial-gradient(48.48% 57.94% at 51.52% 37.6%, #061C31 0%, #061523 30.2%, #02060B 73.49%, #000000 82.27%); */
+  background-size: 100%;
+  background: url(/assets/back-ground-image.png);
+  height: 100%;
+  background-size: cover;
+}
+
+@font-face {
+  font-family: Pirulen;
+  font-weight: 400;
+  font-style: italic;
+  src: url(/assets/pirulenrg.otf);
+}
+
+
+.App {
+  /* background-color: #000; */
+  min-height: 100vh;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+@media (max-width: 920px) {
+  footer .MuiGrid-container .footer-img {
+    margin: 0 auto;
+    display: block !important;
+    margin-bottom: 25px;
+  }
+}
+
+.logotext {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 167px;
+  color: #FFFFFF;
+  margin-left: 18px;
+}
+
+header,
+.drawerContainer {
+  background-color: inherit !important;
+  display: flex;
+}
+
+.drawer-mobile .MuiDrawer-paper {
+  background-color: #160040 !important;
+}
+
+.mobile-logo {
+  margin: 0 auto;
+  display: block;
+  margin-top: 38px;
+}
+.mobile-logo-open-leftside{
+  margin-top: 38px !important;
+}
+
+.button-link {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 959px) {
+  .logotext {
+    display: none;
+  }
+}
+
+
+@media only screen and (max-width: 899px) {
+  .mobile-logo {
+    margin-top: 0px;
+  }
+}
